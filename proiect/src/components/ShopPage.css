@@ -1,0 +1,46 @@
+ .shop-box {
+    height: 50vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .shop-container {
+    background: url('../img/farcry.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  }
+  
+  .shop-box > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+
+  .table {
+    border-spacing: 25px;
+    color: white;
+  }
+
+  @media screen and (max-width: 960px) {
+    .shop-box > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .shop-box > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+}
